@@ -1,0 +1,38 @@
+
+//for small screens
+@media(max-width:600px){
+    .navbar-nav{
+        bottom: 0;
+        width: 100%;
+        height: 5rem;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .logo{
+        display: none;
+    }
+    
+    body{
+        .main{
+            margin: 0;
+        }
+    }
+}
+
+//for large screen
+@media(min-width:600px){
+    .navbar-nav{
+        &:hover{
+            width: 16rem;
+            .link-text{
+                display: block;
+            }
+        }
+
+        .nav-item{
+            width: 100%;
+        }
+    }
+    
+}

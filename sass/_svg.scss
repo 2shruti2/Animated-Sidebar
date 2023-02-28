@@ -1,0 +1,11 @@
+.fa-primary{
+    color: $svg-primary;
+}
+
+.fa-secondary{
+    color: $svg-secondary;
+}
+
+.fa-primary, .fa-secondary{
+    transition: $transition-speed;
+}

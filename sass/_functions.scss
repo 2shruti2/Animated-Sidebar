@@ -1,0 +1,9 @@
+@mixin font{
+    font-family: 'Oswald', sans-serif;
+}
+
+@mixin font-l{
+    font-family: 'Oswald ExtraLight 200', sans-serif;
+    line-height: 1.2;
+    
+}

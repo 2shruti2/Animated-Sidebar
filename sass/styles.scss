@@ -1,0 +1,36 @@
+@import"./variables";
+@import"./functions";
+@import"./logo";
+@import"./svg";
+@import"./navbar";
+@import"./breakpoints";
+
+body{
+
+    margin: 0;
+    
+    &::-webkit-scrollbar{
+        width: 0.45rem;
+    }
+    &::-webkit-scrollbar-track{
+        background-color: #1e1e24;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: #6649b8;
+    }
+
+}
+
+.main{
+    margin-left: $nav-width;
+    padding: 1rem;
+    h1{
+        @include font;
+    }
+
+    p{
+        @include font-l;
+    }
+}
+
+
